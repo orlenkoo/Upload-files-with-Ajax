@@ -1,0 +1,18 @@
+{
+  "name": "upload_ajax_nodejs",
+  "description": "Application with simple example of file upload with AJAX and Node.js",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.16.4",
+    "static-favicon": "~2.0.0-alpha",
+    "morgan": "~1.9.1",
+    "body-parser": "~1.18.3",
+    "debug": "~4.1.0",
+    "ejs": "~2.6.1",
+    "multer": "^1.4.1"
+  }
+}
